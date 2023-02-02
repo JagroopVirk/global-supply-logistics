@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: #e2ffe9;
+}
+.heroBG {
+ background: url(./assets/trucks3.jpg) no-repeat center;
+ background-size: cover;
+
+}
+
+/* .heroBtnAnimation {
+    
+} */
