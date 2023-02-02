@@ -1,8 +1,9 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
-import App from "../App";
-import ContactUs from "./ContactUs";
-import NotFound from "./NotFound";
+import { Link } from "react-router-dom";
+// import { Route, Routes, Link } from "react-router-dom";
+// import App from "../App";
+// import ContactUs from "./ContactUs";
+// import NotFound from "./NotFound";
 
 function Nav() {
   return (

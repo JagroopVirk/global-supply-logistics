@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
     background: #e2ffe9;
-}
+} */
 .heroBG {
- background: url(./assets/trucks3.jpg) no-repeat center;
- background-size: cover;
-
+  background: url(./assets/trucks3.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /* .heroBtnAnimation {
