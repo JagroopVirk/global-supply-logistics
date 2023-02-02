@@ -4,13 +4,13 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-    <header className="w-full flex justify-between content-center flex-wrap">
+    <header className="max-w-6xl mx-auto flex justify-between content-center flex-wrap">
       <div className="w-[12%] m-2">
         <a href="/">
           <img className="" src={logo} alt="logo" />
         </a>
       </div>
-      <div className="grid content-center">
+      <div className="mt-8">
         <Nav />
       </div>
     </header>

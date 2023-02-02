@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div>
       <nav className="w-full">
-        <ul className="flex justify-end child:pl-4">
+        <ul className="flex justify-end child:ml-4 child-hover:border-b-2">
           <li>
             <Link to="/">Home</Link>
           </li>

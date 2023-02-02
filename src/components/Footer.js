@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="flex justify-between items-end pt-4 text-lg">
+    <footer className="flex justify-between items-end pt-4 text-lg max-w-6xl mx-auto ">
       <div className="flex items-end child:mr-8">
         <p>1408 Franklin St. Suite A, Jonesboro, AR 72401</p>
         <a href="tel:8703407000">Tel: (870)-340-7000</a>
