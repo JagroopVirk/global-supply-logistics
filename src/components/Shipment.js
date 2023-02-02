@@ -21,7 +21,7 @@ function Shipment() {
           </p>
         </div>
         <div className="w-[200%] ml-8">
-          <img src={truck1} alt="truck image" />
+          <img src={truck1} alt="section pic" />
         </div>
       </div>
     </div>
