@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div className="App">
-      <h1>This is my app</h1>
+    <div>
+      <Main />
     </div>
   );
 }
 
 export default App;
+//  className="min-h-screen min-w-screen"
