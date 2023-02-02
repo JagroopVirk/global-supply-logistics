@@ -5,7 +5,8 @@ import ContactUs from "./ContactUs";
 
 function Nav() {
   return (
-    <>
+    <div>
+      {/* nav */}
       <nav className="w-full">
         <ul className="flex justify-end child:pl-4">
           <li>
@@ -22,7 +23,7 @@ function Nav() {
           <Route path="/contactus" element={<ContactUs />}></Route>
         </Routes>
       </div>
-    </>
+    </div>
   );
 }
 
