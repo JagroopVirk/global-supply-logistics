@@ -14,7 +14,7 @@ function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/fright">Fright</Link>
+            <Link to="/freight">Freight</Link>
           </li>
           <li>
             <Link to="/shipper">Shipper</Link>
