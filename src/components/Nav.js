@@ -1,9 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import { Route, Routes, Link } from "react-router-dom";
-// import App from "../App";
-// import ContactUs from "./ContactUs";
-// import NotFound from "./NotFound";
+// import { Link } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
+import Home from "../pages/Home";
+import Freight from "../pages/Freight";
+import Shipper from "../pages/Shipper";
+import Carrier from "../pages/Carrier";
+import ContactUs from "../pages/ContactUs";
+import AboutUs from "../pages/AboutUs";
+import NotFound from "../pages/NotFound";
 
 function Nav() {
   return (
@@ -14,7 +18,7 @@ function Nav() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/fright">Fright</Link>
+            <Link to="/freight">Freight</Link>
           </li>
           <li>
             <Link to="/shipper">Shipper</Link>
@@ -31,15 +35,17 @@ function Nav() {
           </li>
         </ul>
       </nav>
-      {/* <div>
+      <div>
         <Routes>
-          <Route path="/" element={<App />}></Route>
-          <Route path="services" element={<Services />}></Route>
-          <Route path="about" element={<AboutUs />}></Route>
-          <Route path="contact" element={<ContactUs />}></Route>
-          <Route path="*" element={<NotFound />}></Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/freight" element={<Freight />} />
+          <Route path="/shipper" element={<Shipper />} />
+          <Route path="/carrier" element={<Carrier />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
-      </div> */}
+      </div>
     </div>
   );
 }

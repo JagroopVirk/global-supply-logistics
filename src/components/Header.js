@@ -1,6 +1,8 @@
 import React from "react";
+// import { Route, Routes, Link } from "react-router-dom";
 import logo from "../logo.svg";
 import Nav from "./Nav";
+// import Home from "../pages/Home";
 
 function Header() {
   return (
@@ -9,6 +11,10 @@ function Header() {
         <a href="/">
           <img className="" src={logo} alt="logo" />
         </a>
+
+        {/* <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes> */}
       </div>
       <div className="mt-8">
         <Nav />
