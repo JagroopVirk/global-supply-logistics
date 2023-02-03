@@ -4,7 +4,7 @@ import Shipment from "../components/Shipment";
 
 function Home() {
   return (
-    <div>
+    <div className="child:my-4">
       <Hero />
       <Shipment />
     </div>

@@ -1,13 +1,14 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import { Route, Routes, Link } from "react-router-dom";
-import Home from "../pages/Home";
-import Freight from "../pages/Freight";
-import Shipper from "../pages/Shipper";
-import Carrier from "../pages/Carrier";
-import ContactUs from "../pages/ContactUs";
-import AboutUs from "../pages/AboutUs";
-import NotFound from "../pages/NotFound";
+import { Link } from "react-router-dom";
+
+// const pages = {
+//   home: "Home",
+//   freight: "Freight",
+//   shipper: "Shipper",
+//   carrier: "Carrier",
+//   about: "About Us",
+//   contact: "Contact Us",
+// };
 
 function Nav() {
   return (
@@ -35,17 +36,7 @@ function Nav() {
           </li>
         </ul>
       </nav>
-      <div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/freight" element={<Freight />} />
-          <Route path="/shipper" element={<Shipper />} />
-          <Route path="/carrier" element={<Carrier />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
+      <div></div>
     </div>
   );
 }
