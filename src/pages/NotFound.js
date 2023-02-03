@@ -1,7 +1,9 @@
 import React from "react";
 
 function NotFound() {
-  return <div className="grid place-content-center">NotFound</div>;
+  return (
+    <div className="w-full h-full grid place-content-center">NotFound</div>
+  );
 }
 
 export default NotFound;

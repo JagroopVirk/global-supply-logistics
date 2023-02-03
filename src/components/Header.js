@@ -6,7 +6,7 @@ import Nav from "./Nav";
 
 function Header() {
   return (
-    <header className="max-w-6xl mx-auto flex justify-between content-center flex-wrap">
+    <header className="w-[90%] mx-auto flex justify-between content-center flex-wrap">
       <div className="w-[12%] m-2">
         <a href="/">
           <img className="" src={logo} alt="logo" />

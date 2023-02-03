@@ -3,7 +3,7 @@ import truck1 from "../assets/trucks2.jpg";
 
 function Shipment() {
   return (
-    <div className="max-w-6xl mx-auto ">
+    <div className="w-[90%] mx-auto ">
       <div className="flex">
         <div>
           <h2 className="text-xl mb-4 font-semibold">
